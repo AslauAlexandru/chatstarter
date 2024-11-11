@@ -1,26 +1,9 @@
 "use client";
 
-import { SidebarProvider, Sidebar } from '@/components/ui/sidebar';
-import { SidebarContent,
-    SidebarGroup, 
-    SidebarGroupContent, 
-    SidebarMenuItem,
-    SidebarMenuButton,
-    SidebarGroupLabel,
-    SidebarGroupAction,
-    SidebarFooter,
-    SidebarMenu
-} from '@/components/ui/sidebar';
-
+import { SidebarProvider } from '@/components/ui/sidebar';
 import { RedirectToSignIn, SignOutButton } from "@clerk/nextjs";
 import { Authenticated, Unauthenticated, useQuery } from "convex/react";
-import Link from "next/link"
-import {PlusIcon, User2Icon} from "lucide-react"
-import { api } from "../../../convex/_generated/api";
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
-import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from '@/components/ui/dropdown-menu';
-
-
+import { DashboardSidebar } from './_components/sidebar';
 
 export default function DashboardLayout({ children }: {
   children: React.ReactNode;
@@ -35,6 +18,29 @@ export default function DashboardLayout({ children }: {
     </>
   );
 }
+
+
+
+
+
+/** 
+import { SidebarContent,
+    SidebarGroup, 
+    SidebarGroupContent, 
+    SidebarMenuItem,
+    SidebarMenuButton,
+    SidebarGroupLabel,
+    SidebarGroupAction,
+    SidebarFooter,
+    SidebarMenu
+} from '@/components/ui/sidebar';
+
+import Link from "next/link"
+import {PlusIcon, User2Icon} from "lucide-react"
+import { api } from "../../../convex/_generated/api";
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from '@/components/ui/dropdown-menu';
+
 
 function DashboardSidebar() {
   const user = useQuery(api.functions.user.get);
@@ -96,5 +102,5 @@ function DashboardSidebar() {
       </Sidebar>
     );
   }
-
+**/
 
