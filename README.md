@@ -32,7 +32,29 @@ pnpm dev
 bun dev
 ```
 
-## The project is in Next.js 
+## Resources:
+
+[Tour of Convex](
+https://docs.convex.dev/tutorial)
+
+[Convex Functions](
+https://docs.convex.dev/functions)
+
+[Convex Database](
+https://docs.convex.dev/database)
+
+[Convex & Clerk Setup](
+https://docs.convex.dev/auth/clerk)
+
+[Clerk Webhooks](
+https://clerk.com/docs/webhooks/sync-data)
+
+[Deploying Convex to Vercel](
+https://docs.convex.dev/production/hosting/vercel)
+
+
+
+## This project is in Next.js 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
