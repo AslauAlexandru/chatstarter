@@ -14,7 +14,10 @@ NEXT_PUBLIC_CONVEX_URL=https://tidy-dotterel-357.convex.cloud
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_a2V5LX...
 CLERK_SECRET_KEY=sk_test_ZwJ6MF...
 ```
-Install with: ```bash  npm install```
+Install with: 
+```bash  
+npm install
+```
 
 
 After, run the development server:
