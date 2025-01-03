@@ -32,7 +32,7 @@ pnpm dev
 bun dev
 ```
 
-## Resources:
+## Resources
 
 [Tour of Convex](
 https://docs.convex.dev/tutorial)
