@@ -1,3 +1,5 @@
+"use client";
+
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../../../convex/_generated/api";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -127,3 +129,4 @@ function FriendItem({ username, image, children }: {
     </div>
   );
 }
+
