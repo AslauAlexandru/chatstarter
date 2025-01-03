@@ -1,3 +1,36 @@
+# Week 2 Headstarter Accelerator Project 2 Discord Clone Real-Time Chat & Video
+Discord Clone: Real-Time Chat & Video.
+In this project, you will build a Discord clone with real-time chat and video functionality. 
+You'll build a React frontend with Tailwind CSS, a backend API using Convex, 
+and integrate WebRTC for real-time video and audio.
+
+First create this file .env.local and change with your secrets: 
+
+```bash
+# Deployment used by `npx convex dev`
+CONVEX_DEPLOYMENT=dev:tidy-dotterel-357 # team: aslaualexandru, project: https-auth-convex-dev-device-chatstarter-274cc
+
+NEXT_PUBLIC_CONVEX_URL=https://tidy-dotterel-357.convex.cloud
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_a2V5LX...
+CLERK_SECRET_KEY=sk_test_ZwJ6MF...
+```
+Install with: ```bash  npm install```
+
+
+After, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+## The project is in Next.js 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
