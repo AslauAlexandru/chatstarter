@@ -4,7 +4,7 @@ In this project, you will build a Discord clone with real-time chat and video fu
 You'll build a React frontend with Tailwind CSS, a backend API using Convex, 
 and integrate WebRTC for real-time video and audio.
 
-First create this file .env.local and change with your secrets: 
+First create this file .env.local and change with your secrets and urls: 
 
 ```bash
 # Deployment used by `npx convex dev`
