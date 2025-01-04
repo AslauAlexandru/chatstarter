@@ -2,7 +2,7 @@
 Discord Clone: Real-Time Chat & Video.
 In this project, you will build a Discord clone with real-time chat and video functionality. 
 You'll build a React frontend with Tailwind CSS and a backend API using Convex.
-At this time I don't integrate WebRTC for real-time video and audio.
+I don't integrate WebRTC for real-time video and audio.
 
 First create this file .env.local and change with your secrets and urls: 
 
