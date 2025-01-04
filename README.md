@@ -1,4 +1,4 @@
-# Week 2 Headstarter Accelerator Project 2 Discord Clone Real-Time Chat & Video
+# Week 2 Headstarter Accelerator Project 2 Discord Clone: Real-Time Chat & Video
 Discord Clone: Real-Time Chat & Video.
 In this project, you will build a Discord clone with real-time chat and video functionality. 
 You'll build a React frontend with Tailwind CSS, a backend API using Convex, 
